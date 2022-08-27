@@ -9,7 +9,7 @@ where
 
 •	X is the spot USD-for-EURO exchange rate,
 
-•	BU is the price of the US T-maturity zero coupon bond,
+•	BU is the price of the US T-maturity zero coupon bond, in general, a bond can be priced like https://finpricing.com/lib/FiBond.html
 
 •	BE is the price of the EURO T-maturity zero coupon bond,
 
@@ -32,9 +32,5 @@ We now form the values of the US and EURO saving accounts converted into the Can
 There must exist a measure under which all the tradeables on the Canadian market, discounted by the Canadian saving account, including CU and CE, are martingales. A standard Brownian motion under this measure w* is coupled with the original Brownian motion:
 
 References:
-
-https://finpricing.com/lib/EqVariance.html
-
-https://osf.io/rwfgn/wiki/home/
 
 https://osf.io/p7kn4/download
